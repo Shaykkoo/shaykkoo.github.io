@@ -1,0 +1,37 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #0f0f0f;
+	font-family: Source Code Pro;
+}
+
+a
+{
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: #33FDFF;
+	text-shadow: 0 0 5px #33FDFF, 0 0 5px #33FDFF;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	text-decoration: none;
+	font-size: 24px;
+	overflow: hidden;
+	transition: 0.2s;
+	border: 1px solid #33FDFF;
+	box-shadow: 0 0 10px #33FDFF, 0 0 10px #33FDFF, 0 0 15px #33FDFF;
+}
+
+a:hover
+{
+	color: #255784;
+	background: #33FDFF;
+	box-shadow: 0 0 10px #33FDFF, 0 0 40px #33FDFF, 0 0 80px #33FDFF;
+	transition-delay: 0s;
+}
+
